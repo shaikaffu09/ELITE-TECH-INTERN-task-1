@@ -7,13 +7,10 @@ module basic_alu (
     output reg [3:0] Result,
     output reg       Carry
 );
-
 always @(*) begin
-    // Default values
     Result = 4'b0000;
     Carry  = 1'b0;
-
-    case (ALU_Sel)
+ case (ALU_Sel)
 
         3'b000: begin
             // Addition
