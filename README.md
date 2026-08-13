@@ -1,5 +1,4 @@
 // basic_alu.v
-
 module basic_alu (
     input  [3:0] A,
     input  [3:0] B,
